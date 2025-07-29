@@ -5,8 +5,11 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server",
-    "dev": "live-server --open=index.html",
-    "build": "echo 'No build process needed for static site'"
+    "dev": "live-server --open=index.html --port=5500",
+    "build": "echo 'No build process needed for static site'",
+    "serve": "live-server --port=3000 --no-browser",
+    "preview": "live-server --open=index.html --port=8080",
+    "validate": "echo 'Running HTML/CSS validation...' && echo 'Manual validation recommended'"
   },
   "keywords": [
     "hunter-x-hunter",
@@ -24,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/hunter-x-hunter-website"
+    "url": "https://github.com/NguyenNgocSon808/BasicWebsite"
   },
-  "homepage": "https://username.github.io/hunter-x-hunter-website"
+  "homepage": "https://NguyenNgocSon808.github.io/BasicWebsite"
 }

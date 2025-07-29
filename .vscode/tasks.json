@@ -2,7 +2,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Start Live Server",
+			"label": "Install Live Server Extension",
 			"type": "shell",
 			"command": "code",
 			"args": [
@@ -11,6 +11,32 @@
 			],
 			"group": "build",
 			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start Development Server",
+			"type": "shell",
+			"command": "npm",
+			"args": ["run", "dev"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "new"
+			}
+		},
+		{
+			"label": "Install Dependencies",
+			"type": "shell",
+			"command": "npm",
+			"args": ["install"],
+			"group": "build",
 			"problemMatcher": []
 		}
 	]
