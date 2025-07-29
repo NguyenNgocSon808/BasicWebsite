@@ -1,0 +1,30 @@
+{
+  "name": "hunter-x-hunter-website",
+  "version": "1.0.0",
+  "description": "A fan website dedicated to Hunter x Hunter anime/manga series",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --open=index.html",
+    "build": "echo 'No build process needed for static site'"
+  },
+  "keywords": [
+    "hunter-x-hunter",
+    "anime",
+    "manga",
+    "fan-website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "KhanhVan",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/hunter-x-hunter-website"
+  },
+  "homepage": "https://username.github.io/hunter-x-hunter-website"
+}
