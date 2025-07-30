@@ -1,15 +1,15 @@
 {
   "name": "hunter-x-hunter-website",
   "version": "1.0.0",
-  "description": "A fan website dedicated to Hunter x Hunter anime/manga series",
+  "description": "Trang web fan dành riêng cho series anime/manga Hunter x Hunter",
   "main": "index.html",
   "scripts": {
     "start": "live-server",
     "dev": "live-server --open=index.html --port=5500",
-    "build": "echo 'No build process needed for static site'",
+    "build": "echo 'Không cần quy trình build cho trang tĩnh'",
     "serve": "live-server --port=3000 --no-browser",
     "preview": "live-server --open=index.html --port=8080",
-    "validate": "echo 'Running HTML/CSS validation...' && echo 'Manual validation recommended'"
+    "validate": "echo 'Đang chạy validation HTML/CSS...' && echo 'Khuyến nghị validation thủ công'"
   },
   "keywords": [
     "hunter-x-hunter",

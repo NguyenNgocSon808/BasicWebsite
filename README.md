@@ -1,51 +1,51 @@
-# Hunter x Hunter Fan Website
+# Trang Web Fan Hunter x Hunter
 
-A Vietnamese fan website dedicated to the Hunter x Hunter anime/manga series, recreated based on the original WordPress site at https://khanhvan235869.wordpress.com/
+Một trang web fan Việt Nam dành riêng cho series anime/manga Hunter x Hunter, được tái tạo dựa trên trang WordPress gốc tại https://khanhvan235869.wordpress.com/
 
-## 🎯 Features
+## 🎯 Tính Năng
 
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
-- **Clean UI**: Modern and user-friendly interface
-- **Interactive Elements**: Smooth scrolling, hover effects, and animations
-- **Vietnamese Content**: All content in Vietnamese for Vietnamese fans
-- **Multiple Pages**: Organized content across different sections
+- **Thiết Kế Responsive**: Hoạt động trên máy tính để bàn, máy tính bảng và điện thoại di động
+- **Giao Diện Sạch Sẽ**: Giao diện hiện đại và thân thiện với người dùng
+- **Các Yếu Tố Tương Tác**: Cuộn mượt, hiệu ứng hover và hoạt ảnh
+- **Nội Dung Tiếng Việt**: Toàn bộ nội dung bằng tiếng Việt cho fan Việt Nam
+- **Nhiều Trang**: Nội dung được tổ chức qua các phần khác nhau
 
-## 📁 Project Structure
+## 📁 Cấu Trúc Dự Án
 
 ```
 BasicWebsite/
-├── index.html              # Main homepage
+├── index.html              # Trang chủ chính
 ├── css/
-│   └── style.css          # Main stylesheet
+│   └── style.css          # Stylesheet chính
 ├── js/
-│   └── script.js          # Interactive functionality
-├── images/                # Image assets (to be added)
-├── pages/                 # Additional pages
-│   ├── thong-tin.html     # Information page
-│   ├── thong-tin-ca-nhan.html # Personal info page
-│   ├── cot-truyen.html    # Story/plot page (to be created)
-│   ├── nhan-vat.html      # Characters page (to be created)
-│   ├── niem.html          # Nen abilities page (to be created)
-│   └── khac.html          # Other content page (to be created)
-├── package.json           # Project configuration
-└── README.md             # This file
+│   └── script.js          # Chức năng tương tác
+├── images/                # Tài nguyên hình ảnh (cần thêm)
+├── pages/                 # Các trang bổ sung
+│   ├── thong-tin.html     # Trang thông tin
+│   ├── thong-tin-ca-nhan.html # Trang thông tin cá nhân
+│   ├── cot-truyen.html    # Trang cốt truyện (đã tạo)
+│   ├── nhan-vat.html      # Trang nhân vật (sẽ tạo)
+│   ├── niem.html          # Trang năng lực Nen (sẽ tạo)
+│   └── khac.html          # Trang nội dung khác (sẽ tạo)
+├── package.json           # Cấu hình dự án
+└── README.md             # File này
 ```
 
-## 🚀 Getting Started
+## 🚀 Bắt Đầu
 
-### Prerequisites
+### Yêu Cầu Trước
 
-- VS Code with Live Server extension installed
-- Modern web browser
+- VS Code với extension Live Server đã cài đặt
+- Trình duyệt web hiện đại
 
-### Installation
+### Cài Đặt
 
-1. Clone or download the project files
-2. Open the project folder in VS Code
-3. Install the Live Server extension if not already installed
-4. Right-click on `index.html` and select "Open with Live Server"
+1. Clone hoặc tải xuống các file dự án
+2. Mở thư mục dự án trong VS Code
+3. Cài đặt extension Live Server nếu chưa có
+4. Nhấp chuột phải vào `index.html` và chọn "Open with Live Server"
 
-Alternatively, if you have Node.js installed:
+Hoặc, nếu bạn đã cài đặt Node.js:
 
 ```bash
 npm install -g live-server
@@ -53,80 +53,86 @@ cd BasicWebsite
 live-server
 ```
 
-## 🛠️ VS Code Extensions Used
+## 🛠️ Extensions VS Code Được Sử Dụng
 
-- **Live Server**: For local development server
-- **Auto Rename Tag**: For HTML tag editing
-- **Prettier**: For code formatting
-- **Path Intellisense**: For file path suggestions
-- **Tailwind CSS IntelliSense**: For CSS utilities (optional enhancement)
+- **Live Server**: Cho server phát triển local
+- **Auto Rename Tag**: Để chỉnh sửa thẻ HTML
+- **Prettier**: Để format code
+- **Path Intellisense**: Để gợi ý đường dẫn file
+- **Tailwind CSS IntelliSense**: Cho CSS utilities (tùy chọn nâng cao)
 
-## 📱 Pages Overview
+## 📱 Tổng Quan Các Trang
 
-1. **Homepage (index.html)**: Main landing page with overview content
-2. **Thông tin**: General information about Hunter x Hunter
-3. **Cốt truyện**: Story arcs and plot details
-4. **Nhân vật**: Character profiles and information
-5. **Niệm**: Nen system explanation
-6. **Khác**: Additional content and resources
-7. **Thông tin cá nhân**: About the website creator
+1. **Trang Chủ (index.html)**: Trang đích chính với nội dung tổng quan
+2. **Thông Tin**: Thông tin chung về Hunter x Hunter
+3. **Cốt Truyện**: Chi tiết các arc câu chuyện và cốt truyện
+4. **Nhân Vật**: Hồ sơ và thông tin nhân vật
+5. **Niệm**: Giải thích hệ thống Nen
+6. **Khác**: Nội dung và tài nguyên bổ sung
+7. **Thông Tin Cá Nhân**: Về người tạo trang web
 
-## 🎨 Design Features
+## 🎨 Tính Năng Thiết Kế
 
-- **Modern CSS Grid & Flexbox**: Responsive layouts
-- **Smooth Animations**: CSS transitions and JavaScript animations
-- **Mobile-First Design**: Responsive across all devices
-- **Dark Header**: Fixed navigation with smooth scrolling
-- **Card-Based Layout**: Clean content organization
-- **Social Media Integration**: Links to social platforms
+- **CSS Grid & Flexbox Hiện Đại**: Layout responsive
+- **Hoạt Ảnh Mượt**: CSS transitions và JavaScript animations
+- **Thiết Kế Mobile-First**: Responsive trên tất cả thiết bị
+- **Header Tối**: Navigation cố định với cuộn mượt
+- **Layout Dạng Thẻ**: Tổ chức nội dung sạch sẽ
+- **Tích Hợp Mạng Xã Hội**: Liên kết đến các nền tảng xã hội
 
-## 🔧 Customization
+## 🔧 Tùy Chỉnh
 
-### Colors
-The main color scheme uses:
-- Primary Blue: `#3498db`
-- Dark Blue: `#2c3e50`
-- Light Gray: `#f8f9fa`
-- Success Green: `#27ae60`
+### Màu Sắc
 
-### Fonts
-- Primary: 'Roboto' from Google Fonts
+Bảng màu chính sử dụng:
+
+- Xanh Chính: `#3498db`
+- Xanh Đậm: `#2c3e50`
+- Xám Nhạt: `#f8f9fa`
+- Xanh Lá Thành Công: `#27ae60`
+
+### Font Chữ
+
+- Chính: 'Roboto' từ Google Fonts
 - Icons: Font Awesome 6.0.0
 
-### Adding Content
-1. Edit HTML files in the `pages/` directory
-2. Add images to the `images/` directory
-3. Update CSS in `css/style.css` for styling changes
-4. Modify JavaScript in `js/script.js` for interactive features
+### Thêm Nội Dung
 
-## 📝 TODO
+1. Chỉnh sửa file HTML trong thư mục `pages/`
+2. Thêm hình ảnh vào thư mục `images/`
+3. Cập nhật CSS trong `css/style.css` để thay đổi style
+4. Sửa JavaScript trong `js/script.js` cho các tính năng tương tác
 
-- [ ] Add character profile pages
-- [ ] Create story arc detailed pages
-- [ ] Add image gallery
-- [ ] Implement search functionality
-- [ ] Add blog/news section
-- [ ] Create contact form
-- [ ] Add more interactive elements
+## 📝 Việc Cần Làm
 
-## 🤝 Contributing
+- [ ] Thêm trang hồ sơ nhân vật
+- [ ] Tạo trang chi tiết arc câu chuyện
+- [ ] Thêm thư viện hình ảnh
+- [ ] Triển khai chức năng tìm kiếm
+- [ ] Thêm phần blog/tin tức
+- [ ] Tạo form liên hệ
+- [ ] Thêm nhiều yếu tố tương tác hơn
 
-This is a fan project. If you'd like to contribute:
-1. Fork the project
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+## 🤝 Đóng Góp
 
-## 📄 License
+Đây là một dự án fan. Nếu bạn muốn đóng góp:
 
-This project is created for educational and fan purposes. All Hunter x Hunter related content belongs to Yoshihiro Togashi and respective copyright holders.
+1. Fork dự án
+2. Tạo nhánh tính năng
+3. Thực hiện thay đổi của bạn
+4. Gửi pull request
 
-## 👤 Author
+## 📄 Giấy Phép
+
+Dự án này được tạo ra cho mục đích giáo dục và fan. Tất cả nội dung liên quan đến Hunter x Hunter thuộc về Yoshihiro Togashi và các chủ sở hữu bản quyền tương ứng.
+
+## 👤 Tác Giả
 
 **KhanhVan** (❁´◡`❁)
-- Website: Based on https://khanhvan235869.wordpress.com/
-- Facebook: [Profile Link](https://www.facebook.com/profile.php?id=100089109889167&mibextid=2JQ9oc)
+
+- Website: Dựa trên https://khanhvan235869.wordpress.com/
+- Facebook: [Liên Kết Profile](https://www.facebook.com/profile.php?id=100089109889167&mibextid=2JQ9oc)
 
 ---
 
-*Created with ❤️ by a Hunter x Hunter fan for the Vietnamese fan community*
+_Được tạo với ❤️ bởi một fan Hunter x Hunter dành cho cộng đồng fan Việt Nam_

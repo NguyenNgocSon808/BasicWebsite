@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+/* Reset và Styles Cơ Bản */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     padding: 0 20px;
 }
 
-/* Header and Navigation */
+/* Header và Navigation */
 .navbar {
     background-color: #2c3e50;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -109,7 +109,7 @@ body {
     transition: 0.3s;
 }
 
-/* Hero Section */
+/* Phần Hero */
 .hero {
     background: url('../images/hunter_exam_poster.jpg') center/cover no-repeat;
     color: white;
@@ -150,7 +150,7 @@ body {
     opacity: 0.9;
 }
 
-/* Main Content */
+/* Nội dung chính */
 .main-content {
     padding: 60px 0;
 }
@@ -196,7 +196,7 @@ body {
     font-size: 1.1rem;
 }
 
-/* Featured Articles */
+/* Bài viết nổi bật */
 .featured-articles {
     background: white;
     padding: 40px;
@@ -249,7 +249,7 @@ body {
     line-height: 1.6;
 }
 
-/* About Section */
+/* Phần giới thiệu */
 .about-section {
     background: white;
     padding: 40px;
@@ -359,7 +359,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Additional Styles for Info Pages */
+/* Styles bổ sung cho trang thông tin */
 .nav-link.active {
     color: #3498db;
     border-bottom: 2px solid #3498db;
@@ -508,7 +508,7 @@ footer {
 .nen-type.conjurer .nen-color { background: #9b59b6; }
 .nen-type.specialist .nen-color { background: #34495e; }
 
-/* Profile Page Styles */
+/* Styles trang hồ sơ */
 .profile-header {
     display: flex;
     align-items: center;
@@ -613,7 +613,7 @@ footer {
     opacity: 0.9;
 }
 
-/* Responsive Design */
+/* Thiết kế Responsive */
 @media screen and (max-width: 768px) {
     .nav-logo img {
         width: 40px;

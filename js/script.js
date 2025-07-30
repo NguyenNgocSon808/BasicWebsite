@@ -1,4 +1,4 @@
-// Mobile menu toggle
+// Toggle menu di động
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById('mobile-menu');
     const navMenu = document.querySelector('.nav-menu');
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Close mobile menu when clicking on a nav link
+    // Đóng menu di động khi nhấp vào liên kết nav
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Smooth scrolling for anchor links
+    // Cuộn mượt cho liên kết anchor
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetSection = document.querySelector(targetId);
             
             if (targetSection) {
-                const offsetTop = targetSection.offsetTop - 70; // Account for fixed header
+                const offsetTop = targetSection.offsetTop - 70; // Tính toán cho header cố định
                 window.scrollTo({
                     top: offsetTop,
                     behavior: 'smooth'
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Newsletter form submission
+    // Gửi form đăng ký newsletter
     const newsletterForm = document.querySelector('.newsletter form');
     if (newsletterForm) {
         newsletterForm.addEventListener('submit', function(e) {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Add scroll effect to navbar
+    // Thêm hiệu ứng cuộn cho navbar
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Animate elements on scroll
+    // Hoạt ảnh các phần tử khi cuộn
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, observerOptions);
 
-    // Observe article cards and content sections
+    // Quan sát thẻ bài viết và phần nội dung
     const animateElements = document.querySelectorAll('.article-card, .content-article, .about-section');
     animateElements.forEach(el => {
         el.style.opacity = '0';
@@ -87,13 +87,13 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
-    // Add loading animation
+    // Thêm hoạt ảnh loading
     window.addEventListener('load', function() {
         document.body.classList.add('loaded');
     });
 });
 
-// External link handling
+// Xử lý liên kết bên ngoài
 document.addEventListener('click', function(e) {
     if (e.target.tagName === 'A' && e.target.href.startsWith('http') && !e.target.href.includes(window.location.hostname)) {
         e.target.setAttribute('target', '_blank');
@@ -101,7 +101,7 @@ document.addEventListener('click', function(e) {
     }
 });
 
-// Back to top button
+// Nút quay lại đầu trang
 const backToTopButton = document.createElement('button');
 backToTopButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
 backToTopButton.className = 'back-to-top';
@@ -143,7 +143,7 @@ backToTopButton.addEventListener('click', function() {
     });
 });
 
-// Add hover effects to article cards
+// Thêm hiệu ứng hover cho thẻ bài viết
 document.addEventListener('DOMContentLoaded', function() {
     const articleCards = document.querySelectorAll('.article-card');
     
